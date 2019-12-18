@@ -15,7 +15,7 @@ from Operations import submitResults
 candidates = []
 title = 'Karma Sandwich'
 
-logging.basicConfig(filename='sandwich.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(stream=sys.stdout, level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 #logging.disable(logging.CRITICAL)
 logging.info('Program start.')
 
