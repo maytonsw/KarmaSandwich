@@ -1,2 +1,5 @@
 praw.ini
 sandwich.log
+__pycache__
+ks-secret.yaml
+secret.yaml
